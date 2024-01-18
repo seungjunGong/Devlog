@@ -2,9 +2,11 @@
 
 **목차**
 
-1. [코틀린 기본 타입](<#기본-타입(basic-types)>)
+1. [코틀린 기본 타입](#기본-타입basic-types)
 2. [Void](#void)
-3. [Unit](#unit?)
+3. [Unit](#unit)
+
+<br/> 
 
 ## 기본 타입(Basic types)
 
@@ -16,6 +18,8 @@ Unit을 살펴보기 전에 코틀린에서의 기본 타입에 대해 알아보
 
 자바에서 원시 타입(primitive type)을 사용했던 반면에 코틀린에서는 클래스로 기본 타입을 지정하여 사용한다.
 
+<br/>
+
 ## Void
 
 자바에서 `void` 와 `Void`는 차이가 있다.
@@ -24,6 +28,8 @@ Unit을 살펴보기 전에 코틀린에서의 기본 타입에 대해 알아보
 
 따라서 `Void` 에는 리턴 값으로 `null` 을 반환 해야 한다.
 
+<br/>
+ 
 ## Unit?
 
 [kotlin 공식문서](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/) 에는 다음과 같이 설명한다.
@@ -53,6 +59,8 @@ fun printHello() {
     println("Hello World!")
 }
 ```
+
+<br/>
 
 ### 왜 Unit을 사용하는 가?
 
